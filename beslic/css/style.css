@@ -113,15 +113,46 @@
     url(../img/800_1678.jpg);
   background-size: cover;
 }
+.section-hero-pera {
+  /*background-color: #c2c2ff;*/
+  padding: 4.8rem 0 9.6rem 0;
+  background-image: linear-gradient(to left bottom, #d6c2ffb3, #c2c2ffcc),
+    url(../img/zaposleni/pera.jpg);
+  background-size: cover;
+}
+.section-hero-marijan {
+  /*background-color: #c2c2ff;*/
+  padding: 4.8rem 0 9.6rem 0;
+  background-image: linear-gradient(to left bottom, #d6c2ffb3, #c2c2ffcc),
+    url(../img/zaposleni/marijan.jpg);
+  background-size: cover;
+}
 
 .hero {
   max-width: 130rem;
   margin: 0 auto;
   padding: 0 3.2rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 1fr;
   gap: 9.6rem;
   align-items: center;
+}
+
+.hero-icons {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-doktori {
+  grid-template-columns: 2fr 1fr;
+  height: 80vh;
+  margin-top: 0;
+  line-height: 1.5;
 }
 
 .hero-description {
@@ -336,6 +367,9 @@
 }
 
 .zaposleni-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
 }
 
@@ -435,7 +469,7 @@
 }
 
 .pricing-plan--complete::after {
-  content: "neki tekst";
+  content: "javite se!";
   position: absolute;
   top: 6%;
   right: -18%;
@@ -556,7 +590,7 @@
   background-position: center;
 }
 
-.cta-form {
+.cta-form .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
@@ -571,7 +605,8 @@
 }
 
 .cta-form input,
-.cta-form select {
+.cta-form select,
+.cta-form textarea {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.8rem;
@@ -602,7 +637,7 @@
 }
 
 .grid--footer {
-  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .logo-col {
@@ -671,4 +706,10 @@
 
 .footer-logo {
   color: #555;
+}
+
+.footer-mapa {
+  width: 80%;
+  height: auto;
+  justify-content: end;
 }

@@ -126,3 +126,6 @@ Careers
 Recipe directory
 Help center
 Privacy & terms
+glavna boja #0066ff
+tamna boja #166088
+svetla #00b5d9

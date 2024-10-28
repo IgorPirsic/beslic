@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d6c2ff;
+  background-color: #00b5d9;
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
@@ -48,7 +48,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #6a5f7d;
+  color: #0066ff;
 }
 
 .main-nav-link.nav-cta:link,
@@ -56,12 +56,12 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #6a5f7d;
+  background-color: ##0066ff;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #d6c2ff;
+  background-color: #0066ff;
 }
 
 /* MOBILE */
@@ -94,7 +94,7 @@
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #d6c2ffdd;
+  background-color: #00b3ff;
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0 0 0 0.03);
 }
@@ -109,21 +109,21 @@
 .section-hero {
   /*background-color: #c2c2ff;*/
   padding: 4.8rem 0 9.6rem 0;
-  background-image: linear-gradient(to left bottom, #d6c2ffb3, #c2c2ffcc),
+  background-image: linear-gradient(to left bottom, #00b3ff55, #00b5d955),
     url(../img/800_1678.jpg);
   background-size: cover;
 }
 .section-hero-pera {
   /*background-color: #c2c2ff;*/
   padding: 4.8rem 0 9.6rem 0;
-  background-image: linear-gradient(to left bottom, #d6c2ffb3, #c2c2ffcc),
+  background-image: linear-gradient(to left bottom, #00b3ff55, #00b5d955),
     url(../img/zaposleni/pera.jpg);
   background-size: cover;
 }
 .section-hero-marijan {
   /*background-color: #c2c2ff;*/
   padding: 4.8rem 0 9.6rem 0;
-  background-image: linear-gradient(to left bottom, #d6c2ffb3, #c2c2ffcc),
+  background-image: linear-gradient(to left bottom, #00bfff55, #00b5d955),
     url(../img/zaposleni/marijan.jpg);
   background-size: cover;
 }
@@ -213,7 +213,7 @@
   font-weight: 500;
   text-align: center;
   margin-bottom: 2.4rem;
-  color: #888;
+  color: #000;
 }
 
 .logos {
@@ -239,7 +239,7 @@
 .onama-number {
   font-size: 8.6rem;
   font-weight: 600;
-  color: #ddd;
+  color: #000;
   margin-bottom: 1.2rem;
 }
 
@@ -336,7 +336,7 @@
   color: #333;
   border-radius: 100px;
   font-weight: 600;
-  background-color: #9788b3;
+  background-color: #00b5d9;
 }
 
 .zaposleni-title {
@@ -363,7 +363,7 @@
 .zaposleni-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #0066ff;
 }
 
 .zaposleni-img {
@@ -383,7 +383,7 @@
 /****************************************/
 
 .section-testimonials {
-  background-color: #c2c2ff;
+  background-color: #00b5d9;
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -448,7 +448,7 @@
 }
 
 .pricing-plan {
-  background-image: linear-gradient(to right bottom, #d6c2ffaf, #c2c2ff9a),
+  background-image: linear-gradient(to right bottom, #00bfff55, #00b5d955),
     url(../img/gallery/gallery-20.jpg);
   background-size: cover;
   border-radius: 11px;
@@ -468,7 +468,7 @@
   overflow: hidden;
 }
 
-.pricing-plan--complete::after {
+/*.pricing-plan--complete::after {
   content: "javite se!";
   position: absolute;
   top: 6%;
@@ -481,6 +481,7 @@
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
+*/
 
 .plan-header {
   text-align: center;
@@ -512,7 +513,7 @@
 .plan-text {
   font-size: 1.6rem;
   line-height: 1.6;
-  color: #6f6f6f;
+  color: #000;
 }
 
 .plan-sign-up {
@@ -561,7 +562,7 @@
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-image: linear-gradient(to right bottom, #d6c2ff, #c2c2ff);
+  background-image: linear-gradient(to right bottom, #0066ffcc, #166088cc);
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   overflow: hidden;
@@ -584,7 +585,7 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(to right bottom, #d6c2ff43, #c2c2ff4b),
+  background-image: linear-gradient(to right bottom, #0066ff22, #16608822),
     url("../img/4_800_1758-min.jpg");
   background-size: cover;
   background-position: center;
@@ -633,7 +634,7 @@
 .footer {
   padding: 9.6rem 0;
   border-top: 1px solid #eee;
-  background-color: #d6c2ff;
+  background-color: #00b5d9;
 }
 
 .grid--footer {
@@ -659,12 +660,13 @@
 .social-icon {
   height: 2.4rem;
   width: 2.4rem;
+  color: #000;
 }
 
 .copyright {
   font-size: 1.4rem;
   line-height: 1.6;
-  color: #767676;
+  color: #000;
   margin-top: auto;
 }
 
@@ -695,7 +697,7 @@
 .footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #767676;
+  color: #000;
   transition: all 0.3s;
 }
 

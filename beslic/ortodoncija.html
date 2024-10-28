@@ -26,18 +26,9 @@
         <nav class="main-nav">
           <ul class="main-nav-list">
             <li>
-              <a class="main-nav-link" href="#onama">O nama</a>
+              <a class="main-nav-link" href="/index.html">Početna</a>
             </li>
-            <li>
-              <a class="main-nav-link" href="#zaposleni">Zaposleni</a>
-            </li>
-            <li>
-              <a class="main-nav-link" href="#testimonials">Galerija</a>
-            </li>
-           <!-- DODATNI LINK!!!
-            <li>
-              <a class="main-nav-link" href="#pricing">Neki link</a>
-            </li>--> 
+            
             <li>
               <a class="main-nav-link nav-cta" href="#cta">Zakaži termin</a>
             </li>
@@ -104,13 +95,13 @@
                 Ostavite podatke, postavite pitanje, obrazložite vaš problem i u
                 najkraćem roku ćemo stupiti u kontakt sa vama
               </p>
-              <form action="#" class="cta-form">
+              <form name="contact" netlify class="cta-form">
                 <div class="grid">
                 <div>
                   <label for="full-name">Vaše ime</label>
                   <input
                     type="text"
-                    name=""
+                    name="full-name"
                     id="full-name"
                     placeholder="Vaše ime"
                     required
@@ -120,7 +111,7 @@
                   <label for="email">Vaše e-mail adresa</label>
                   <input
                     type="email"
-                    name=""
+                    name="email"
                     id="email"
                     placeholder="me@example.com"
                     required
@@ -129,16 +120,16 @@
               </div>
                 <div>
                   <label for="textarea">Obrazložite problem</label>
-                <textarea name="textarea" id="" cols="30" rows="10" class="cta-form"></textarea>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" class="cta-form"></textarea>
                 </div>
                 <br>
-                <button class="btn btn--form">Javite nam se!</button>
+                <button class="btn btn--form">Zakažite termin!</button>
                 </form>
             </div>
             <div
               class="cta-img-box"
               role="img"
-              aria-label="Woman enjoying food"
+              aria-label="dentist"
             ></div>
           </div>
         </div>

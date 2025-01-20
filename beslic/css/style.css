@@ -22,7 +22,7 @@
 }
 
 .logo {
-  height: 8.4rem;
+  height: 10.4rem;
 }
 
 /****************************************/
@@ -651,6 +651,10 @@
   margin-bottom: 3.2rem;
 }
 
+.logo-footer {
+  height: 15rem;
+}
+
 .social-links {
   list-style: none;
   display: flex;
@@ -658,8 +662,8 @@
 }
 
 .social-icon {
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 4.4rem;
+  width: 4.4rem;
   color: #000;
 }
 
